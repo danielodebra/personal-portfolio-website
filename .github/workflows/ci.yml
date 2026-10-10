@@ -1,0 +1,35 @@
+name: Portfolio CI
+
+on:
+  push:
+    branches:
+      - main
+      - 'feature/**'
+
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate website
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Check required files
+        run: |
+          test -f index.html
+          test -f css/style.css
+          echo "Required website files exist."
+
+      - name: Validate HTML
+        uses: Cyb3r-Jak3/html5validator-action@v7.2.0
+        with:
+          root: .
+          log_level: INFO
