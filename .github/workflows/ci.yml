@@ -1,0 +1,30 @@
+name: Portfolio CI
+
+on:
+  push:
+    branches:
+      - main
+      - 'feature/**'
+
+
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate website
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check required files
+        run: |
+          test -f index.html
+          test -f css/style.css
+          echo "Required website files exist."
