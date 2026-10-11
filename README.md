@@ -1,15 +1,15 @@
 Personal Portfolio Website
 
-A personal portfolio website showcasing my background, technical interests, projects, and learning journey in IT infrastructure, cloud technologies, and automation.
+A personal portfolio website showcasing technical projects, infrastructure experiments, and practical implementations across web development, cloud technologies, automation, and IT infrastructure.
 
 * Live Website: danieldebra.com
 * GitHub Repository: personal-portfolio-website
 
 Overview
 
-This repository contains the source code for my personal portfolio website. I implemented a Continuous Integration (CI) workflow using GitHub Actions and integrated it with Netlify’s deployment workflow.
+This repository contains the source code for my personal portfolio website. The project includes a Continuous Integration (CI) workflow implemented with GitHub Actions and automated deployments through Netlify.
 
-The project demonstrates practical experience with version control, automated HTML validation, pull request workflows, branch protection, and automated website deployments.
+The implementation demonstrates Git-based development, automated HTML validation, pull request workflows, branch protection, deployment previews, and production deployment automation.
 
 Technologies Used
 
@@ -117,7 +117,7 @@ Author
 
 Daniel
 
-IT Support Engineer developing practical skills in cloud infrastructure, Windows infrastructure, automation, and DevOps.
+IT professional documenting technical projects, practical implementations, and ongoing work across web development, cloud infrastructure, Windows infrastructure, and automation.
 
 * Portfolio: danieldebra.com
 * GitHub: danielodebra
