@@ -1,19 +1,19 @@
-# H1 Personal Portfolio Website
+# Personal Portfolio Website
 
 A personal portfolio website showcasing technical projects, infrastructure experiments, and practical implementations across web development, cloud technologies, automation, and IT infrastructure.
 
 * Live Website: danieldebra.com
 * GitHub Repository: personal-portfolio-website
 
-Overview
+## Overview
 
 This repository contains the source code for my personal portfolio website. The project includes a Continuous Integration (CI) workflow implemented with GitHub Actions and automated deployments through Netlify.
 
 The implementation demonstrates Git-based development, automated HTML validation, pull request workflows, branch protection, deployment previews, and production deployment automation.
 
-Technologies Used
+##Technologies Used
 
-Technology	Purpose
+## Technology	Purpose
 HTML5	Website structure and content
 CSS3	Website styling and layout
 Git	Version control
@@ -21,11 +21,11 @@ GitHub	Source code hosting and collaboration workflow
 GitHub Actions	Automated validation through CI
 Netlify	Website hosting, preview deployments, and production deployments
 
-CI/CD Workflow
+## CI/CD Workflow
 
 GitHub Actions validates changes before they are merged into the production branch. Netlify manages preview and production deployments.
 
-Workflow
+## Workflow
 
 1. Development: Website changes are made locally using Git and VS Code.
 2. Feature branches: Changes are developed on separate branches rather than directly on main.
@@ -35,7 +35,7 @@ Workflow
 6. Preview deployment: Netlify generates a preview deployment so changes can be reviewed before release.
 7. Production deployment: After changes are merged into main, Netlify automatically deploys the updated website.
 
-GitHub Actions Checks
+## GitHub Actions Checks
 
 The CI workflow is defined in .github/workflows/ci.yml.
 
@@ -49,7 +49,7 @@ The workflow performs the following checks:
 
 These checks help identify issues before changes reach the production branch.
 
-Repository Structure
+## Repository Structure
 
 personal-portfolio-website/
 ├── .github/
@@ -60,7 +60,7 @@ personal-portfolio-website/
 ├── index.html
 └── README.md
 
-Local Development
+## Local Development
 
 1. Clone the repository
 
@@ -93,7 +93,7 @@ Wait for the required CI checks to pass, review the changes, and merge when ever
 
 After merging, verify that the production deployment completes successfully.
 
-Project Goals
+## Project Goals
 
 This project was developed to:
 
@@ -104,7 +104,7 @@ This project was developed to:
 * Integrate source control with Netlify preview and production deployments.
 * Build practical experience relevant to cloud infrastructure and DevOps engineering.
 
-Future Improvements
+## Future Improvements
 
 Potential enhancements include:
 
