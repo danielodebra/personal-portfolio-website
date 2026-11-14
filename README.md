@@ -1,4 +1,4 @@
-# H! Personal Portfolio Website
+# H1 Personal Portfolio Website
 
 A personal portfolio website showcasing technical projects, infrastructure experiments, and practical implementations across web development, cloud technologies, automation, and IT infrastructure.
 
